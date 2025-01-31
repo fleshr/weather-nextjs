@@ -1,0 +1,36 @@
+@theme inline {
+  --font-sans: var(--font-roboto);
+}
+
+@theme {
+  --radius-lg: 0.625rem;
+
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-400: #959ba6;
+  --color-gray-450: #919499;
+  --color-gray-500: #7e838c;
+  --color-gray-600: #797c80;
+
+  --color-blue-700: #293d66;
+  --color-blue-800: #20345c;
+  --color-blue-900: #13264d;
+
+  --text-xs--line-height: 0.875rem;
+  --text-sm--line-height: 1rem;
+  --text-base--line-height: 1.1875rem;
+  --text-lg--line-height: 1.3125rem;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.625rem;
+  --text-5xl: 3.125rem;
+  --text-5xl--line-height: 1;
+  --text-7xl: 4.375rem;
+  --text-7xl--line-height: 1;
+
+  --shadow-t-px: 0 -1px rgba(0, 0, 0, 0.1);
+  --shadow-b-px: 0 1px rgba(0, 0, 0, 0.1);
+
+  --breakpoint-lg: 56rem;
+  --breakpoint-xl: 64rem;
+  --breakpoint-2xl: 70rem;
+}

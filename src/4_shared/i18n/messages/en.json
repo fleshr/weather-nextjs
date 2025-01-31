@@ -1,0 +1,58 @@
+{
+  "pages": {
+    "home": {
+      "title": "Weather"
+    }
+  },
+  "widgets": {
+    "header": {
+      "logoTitle": "Weather",
+      "searchPlaceholder": "Weather in your city",
+      "resultsEmpty": "No results found"
+    },
+    "footer": {
+      "sourceCode": "Source code - ",
+      "themesLabel": "Interface theme:",
+      "themes": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "localesLabel": "Interface language:",
+      "locales": {
+        "ru": "Russian",
+        "en": "English"
+      }
+    },
+    "currentWeather": {
+      "date": "{date, date, day}, {date, time, time}",
+      "temperature": "{temperature, number, temp}°",
+      "feelsLike": "Feels like: {feelsLike, number, temp}°",
+      "wind": "Wind: {windSpeed, number, wind} m/s, {windDirection, select, N {N} NE {NE} E {E} SE {SE} S {S} SW {SW} W {W} NW {NW} other {}}",
+      "humidity": "Humidity: {humidity, number, units}%",
+      "pressure": "Pressure: {pressure, number, units} mmHg"
+    },
+    "forecast": {
+      "title": "Forecast",
+      "hourRow": {
+        "time": "{date, time, time}",
+        "temperature": "{temperature, number, temp}°",
+        "feelsLike": "{feelsLike, number, temp}°",
+        "wind": "{windSpeed, number, wind}<units> m/s</units>, {windDirection, select, N {N} NE {NE} E {E} SE {SE} S {S} SW {SW} W {W} NW {NW} other {}}",
+        "humidity": "{humidity, number, units}%",
+        "pressure": "{pressure, number, units}"
+      },
+      "dayRow": {
+        "day": "{date, date, day}",
+        "weekday": "{date, date, weekday}"
+      },
+      "header": {
+        "temperature": "Temperature",
+        "feelsLike": "Feels like",
+        "wind": "Wind, m/s",
+        "humidity": "Humidity",
+        "pressure": "Pressure, mmHg"
+      }
+    }
+  }
+}

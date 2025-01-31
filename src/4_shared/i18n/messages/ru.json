@@ -1,0 +1,58 @@
+{
+  "pages": {
+    "home": {
+      "title": "Погода"
+    }
+  },
+  "widgets": {
+    "header": {
+      "logoTitle": "Погода",
+      "searchPlaceholder": "Погода в твоём городе",
+      "resultsEmpty": "Ничего не нашлось"
+    },
+    "footer": {
+      "sourceCode": "Исходный код - ",
+      "themesLabel": "Тема интерфейса: ",
+      "themes": {
+        "light": "Светлая",
+        "dark": "Темная",
+        "system": "Системная"
+      },
+      "localesLabel": "Язык интерфейса: ",
+      "locales": {
+        "ru": "Русский",
+        "en": "Английский"
+      }
+    },
+    "currentWeather": {
+      "date": "{date, date, ::MMMMd}, {date, time, ::HHmm}",
+      "temperature": "{temperature, number, temp}°",
+      "feelsLike": "Ощущается как: {feelsLike, number, temp}°",
+      "wind": "Ветер: {windSpeed, number, wind} м/с, {windDirection, select, N {С} NE {СВ} E {В} SE {ЮВ} S {Ю} SW {ЮЗ} W {З} NW {СЗ} other {}}",
+      "humidity": "Влажность: {humidity, number, units}%",
+      "pressure": "Давление: {pressure, number, units} мм рт. ст."
+    },
+    "forecast": {
+      "title": "Прогноз погоды",
+      "hourRow": {
+        "time": "{date, time, time}",
+        "temperature": "{temperature, number, temp}°",
+        "feelsLike": "{feelsLike, number, temp}°",
+        "wind": "{windSpeed, number, wind}<units> м/с</units>, {windDirection, select, N {С} NE {СВ} E {В} SE {ЮВ} S {Ю} SW {ЮЗ} W {З} NW {СЗ} other {}}",
+        "humidity": "{humidity, number, units}%",
+        "pressure": "{pressure, number, units}"
+      },
+      "dayRow": {
+        "day": "{date, date, day}",
+        "weekday": "{date, date, weekday}"
+      },
+      "header": {
+        "temperature": "Темпретатура",
+        "feelsLike": "Ощущается",
+        "wind": "Ветер, м/с",
+        "humidity": "Влажность",
+        "pressure": "Давление, мм рт. ст."
+      }
+    }
+  }
+}
